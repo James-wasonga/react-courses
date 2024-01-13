@@ -6,6 +6,8 @@ import Profile from "./components/EscapeBack";
 import Help from "./components/ConditionRendering";
 import ClickButton from "./components/Event";
 import Car from "./components/props";
+import myBtn from "./components/props";
+
 const App = () => {
   return (
     <div>
@@ -19,7 +21,8 @@ const App = () => {
        <Help/>
        <ClickButton/>
        <Car color ="Red"/>
-
+       <myBtn/>
+       <mybtn/>
 
     </div>
   )
