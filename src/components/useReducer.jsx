@@ -9,6 +9,7 @@ const reducer = (state, action) => {
             default:
                 return state;
     }
+}
 
     const ReducerTutorial = () => {
         const [state, dispatch] = useReducer(reducer,{count: 0,showText})
@@ -21,5 +22,5 @@ const reducer = (state, action) => {
             {state.showText && <p>This is a text</p>}   
         </div>
     )
-    }
+  
 export default reducer
