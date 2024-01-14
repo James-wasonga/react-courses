@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+function mybn () {
 const [count,setCount] = useState(0);
 
 function handleClick() {
@@ -14,9 +14,10 @@ return (
 
     </>
 )
+}
 function mybtn({count,onClick}) {
     return (
         <button onClick={onClick}>Click {count} times</button>
     )
 }
-export default mybtn
+export default mybn 
