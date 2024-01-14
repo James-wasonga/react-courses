@@ -22,6 +22,7 @@ const App = () => {
        <ClickButton/>
        <Car color ="Red"/>
         <mybn/>
+        <reducer/>
 
     </div>
   )
