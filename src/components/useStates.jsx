@@ -10,7 +10,7 @@ function onChange(event) {
 }
 return (
     <>
-    <input placeholder="Enter sometext..." onChange={onChange}/>
+    <input placeholder="Enter somaething..." onChange={onChange}/>
     {input}
     </>
 )
