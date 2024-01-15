@@ -3,7 +3,7 @@
 
 import { useState } from "react";
 
-function myBtn() {
+function MyBtn() {
     const [count,setCount] = useState(0);// the count shows the current state of the component while the setCount is a function that allows updating the component
 
 
@@ -17,4 +17,4 @@ return (
 )
 }
 
-export default myBtn
+export default MyBtn

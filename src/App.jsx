@@ -6,7 +6,8 @@ import Profile from "./components/EscapeBack";
 import Help from "./components/ConditionRendering";
 import ClickButton from "./components/Event";
 import Car from "./components/props";
-
+import Reducer from "./components/useReducer";
+import Best from "./components/useStates";
 
 const App = () => {
   return (
@@ -21,8 +22,9 @@ const App = () => {
        <Help/>
        <ClickButton/>
        <Car color ="Red"/>
-        <mybn/>
-        <reducer/>
+        <MyBtn/>
+        <Reducer/>
+        <Best/>
 
     </div>
   )
