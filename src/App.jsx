@@ -8,6 +8,8 @@ import ClickButton from "./components/Event";
 import Car from "./components/props";
 import Reducer from "./components/useReducer";
 import Best from "./components/useStates";
+import EffectTutorial from "./components/useEffect";
+import RefTutorial from "./components/useRef";
 
 const App = () => {
   return (
@@ -25,6 +27,8 @@ const App = () => {
         <MyBtn/>
         <Reducer/>
         <Best/>
+        <EffectTutorial/>
+        <RefTutorial/>
 
     </div>
   )
