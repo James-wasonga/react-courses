@@ -7,4 +7,6 @@ function MyButton() {
     
 }
 
-export default MyButton
+export default MyButton;
+
+
