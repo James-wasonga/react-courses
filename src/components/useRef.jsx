@@ -1,7 +1,7 @@
 import { useRef } from "react";
 
-function RefTutorial() {
-    const inputRef = useRef[null];
+function RefTutorial() { 
+    const inputRef = useRef(null);
 
  const onClick=() => {
     console.log(inputRef.current.value);
@@ -9,15 +9,15 @@ function RefTutorial() {
 
     inputRef.current.focus();
 
-    inputRef.current.value = ""; //this clears the value within the input appone clicking then button
+    inputRef.current.value = ""; //this clears the value within the input appone clicking the .   button
 
     }
     return(
         <>
-        <input type="text" placeholder="name..." ref={inputRef}/>
+         <input type="text" placeholder="name..." ref={inputRef}/>
         <button onClick={onClick}> Change Name </button>
         </>
-    )
+    ) 
 }
 
 export default RefTutorial;

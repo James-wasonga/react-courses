@@ -10,6 +10,7 @@ import Reducer from "./components/useReducer";
 import Best from "./components/useStates";
 import EffectTutorial from "./components/useEffect";
 import RefTutorial from "./components/useRef";
+import LayoutEffectTutorial from "./components/LayoutEffect";
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
         <Best/>
         <EffectTutorial/>
         <RefTutorial/>
+        <LayoutEffectTutorial/>
 
     </div>
   )

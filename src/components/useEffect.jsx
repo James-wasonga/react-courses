@@ -14,7 +14,7 @@ function EfectTutuorial() {
 
         });
     },[]);
-
+ 
     // function handleClick() {
     //     setCount(count+1);
     // } 

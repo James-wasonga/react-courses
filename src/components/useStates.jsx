@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function Best() {
-cont [InputValue,setInputValue] = useState(0);
+const [InputValue,setInputValue] = useState(0);
 
 function onChange(event) {
     const newValue = event.target.value;
