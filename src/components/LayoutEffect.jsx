@@ -13,7 +13,11 @@ function LayoutEffectTutorial () {
      inputRef.current.value = "hello";
     },[]);
 
-    return <div></div>
+    return (
+    <div className="App">
+        <input ref={inputRef} value="PEDRO" style={{width:400,height:400}}/>
+    </div>
+    );
 }
 
 export default LayoutEffectTutorial;
