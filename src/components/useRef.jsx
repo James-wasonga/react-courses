@@ -9,7 +9,7 @@ function RefTutorial() {
 
     inputRef.current.focus();
 
-    inputRef.current.value = ""; //this clears the value within the input appone clicking the .   button
+    inputRef.current.value = ""; //this clears the value within the input appone clicking the button
 
     }
     return(

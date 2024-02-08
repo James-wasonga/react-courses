@@ -4,7 +4,7 @@
 import { useState } from "react";
 
 function MyBtn() {
-    const [count,setCount] = useState(0);// the count shows the current state of the component while the setCount is a function that allows updating the component
+    const [count,setCount] = useState();// the count shows the current state of the component while the setCount is a function that allows updating the component
 
 
     function handleClick() {

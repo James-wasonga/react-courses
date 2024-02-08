@@ -12,7 +12,7 @@ return (
     <>
     <input placeholder="Enter somaething..." onChange={onChange}/>
     {input}
-    </>
+    </> 
 )
 }
 
